@@ -1,9 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-.card {
-  width: 28em;
-  height: 40em;
-  background-color: #ffffff;
-  box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
-  border-radius: 0.7em;
+.card1 {
   margin-top: 5%;
+  font-size: 400px;
 }
