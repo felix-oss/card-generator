@@ -9,6 +9,7 @@ body {
   box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
   border-radius: 0.8em;
   margin: 2%;
+  color: red;
 }
 button {
   margin: 2%;
@@ -21,10 +22,10 @@ h3 {
 }
 .top-left {
   font-size: 500%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 .bottom-right {
   font-size: 500%;
-  margin-right: 2%;
+  margin-right: 3%;
   transform: rotate(180deg);
 }
