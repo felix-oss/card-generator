@@ -8,8 +8,23 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
   border-radius: 0.8em;
-  margin-top: 2%;
+  margin: 2%;
 }
 button {
-  margin-top: 2%;
+  margin: 2%;
+}
+.card-center {
+  margin: 20%;
+}
+h3 {
+  font-size: 1000%;
+}
+.top-left {
+  font-size: 500%;
+  margin-left: 2%;
+}
+.bottom-right {
+  font-size: 500%;
+  margin-right: 2%;
+  transform: rotate(180deg);
 }
