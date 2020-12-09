@@ -32,45 +32,45 @@ window.randomCard = function randomCard() {
   }
   // numbers -------------->
   var numb = Math.floor(Math.random() * 13);
-  if (symbol == 0) {
+  if (numb == 0) {
     document.querySelector(".card-center-2").innerHTML = "A";
   }
-  if (symbol == 1) {
+  if (numb == 1) {
     document.querySelector(".card-center-2").innerHTML = "2";
   }
-  if (symbol == 2) {
+  if (numb == 2) {
     document.querySelector(".card-center-2").innerHTML = "3";
   }
-  if (symbol == 3) {
+  if (numb == 3) {
     document.querySelector(".card-center-2").innerHTML = "4";
   }
-  if (symbol == 4) {
+  if (numb == 4) {
     document.querySelector(".card-center-2").innerHTML = "5";
   }
-  if (symbol == 5) {
+  if (numb == 5) {
     document.querySelector(".card-center-2").innerHTML = "6";
   }
-  if (symbol == 6) {
+  if (numb == 6) {
     document.querySelector(".card-center-2").innerHTML = "7";
   }
-  if (symbol == 7) {
+  if (numb == 7) {
     document.querySelector(".card-center-2").innerHTML = "8";
   }
-  if (symbol == 8) {
+  if (numb == 8) {
     document.querySelector(".card-center-2").innerHTML = "9";
   }
-  if (symbol == 9) {
+  if (numb == 9) {
     document.querySelector(".card-center-2").innerHTML = "10";
   }
-  if (symbol == 10) {
+  if (numb == 10) {
     document.querySelector(".card-center-2").innerHTML = "J";
   }
-  if (symbol == 11) {
+  if (numb == 11) {
     document.querySelector(".card-center-2").innerHTML = "Q";
   }
-  if (symbol == 12) {
+  if (numb == 12) {
     document.querySelector(".card-center-2").innerHTML = "K";
   }
   var colr = document.querySelector(".card1");
-  colr.classList.toggle.style.color = "black";
+  colr.classList.contains("text-danger") && colr.classList.toggle("text-dark");
 };
